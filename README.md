@@ -1,4 +1,5 @@
-# ChatApp - Decentralized Chat Application
+# ChatApp - Block Chain Based Chat Application
+![512x512bb](https://github.com/user-attachments/assets/cf1bfcb2-b96d-4614-9787-09e23030b5e7)
 
 ## Vision
 ChatApp aims to revolutionize the way we communicate by leveraging blockchain technology to create a decentralized, secure, and transparent chat platform. By using Solidity smart contracts on the Ethereum blockchain, ChatApp ensures that all messages and user interactions are stored securely, free from tampering, and are accessible only to authorized participants.
