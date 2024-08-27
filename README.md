@@ -98,7 +98,7 @@ Below is a high-level flowchart of ChatApp’s architecture:
 ## Smart Contract Address
 The smart contract for ChatApp is deployed at the following Ethereum address:
 ```
-0xAbC1234DeF5678GhIjKlMNoPqRsTuVwXyZ012345
+0xe4db2537a85310b41095e6cd57eec848c8afdfaf
 ```
 
 ## Future Scope
