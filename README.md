@@ -6,24 +6,94 @@ ChatApp aims to revolutionize the way we communicate by leveraging blockchain te
 ## Flowchart
 Below is a high-level flowchart of ChatApp’s architecture:
 
-1. **User Registration**:
-   - User connects their Ethereum wallet.
-   - User registers by creating a new profile in the smart contract.
++------------------------------------+
+|            Start                   |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|      User Connects Wallet          |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   User Registers Profile in        |
+|    Smart Contract                  |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|          Send Message              |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|     User Composes Message          |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   Message is Encrypted and         |
+|     Sent to Smart Contract         |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| Smart Contract Records Message     |
+|  and Associates with Sender &      |
+|            Recipient               |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|        Receive Message             |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   Recipient Requests Messages      |
+|     from Smart Contract            |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   Smart Contract Provides          |
+|   Encrypted Messages to Recipient  |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|    Recipient Decrypts Messages     |
+|            Locally                 |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|           View History             |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   User Requests Chat History       |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|   Smart Contract Provides          |
+|   Historical Messages              |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|    Messages are Decrypted          |
+|            Locally                 |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+|            End                     |
++------------------------------------+
 
-2. **Send Message**:
-   - User composes a message.
-   - Message is encrypted and sent to the smart contract.
-   - Smart contract records the message and associates it with the sender and recipient.
-
-3. **Receive Message**:
-   - Recipient requests messages from the smart contract.
-   - Smart contract provides the encrypted messages to the recipient.
-   - Recipient decrypts messages locally.
-
-4. **View History**:
-   - User requests chat history.
-   - Smart contract provides historical messages.
-   - Messages are decrypted by the user locally.
 
 ## Smart Contract Address
 The smart contract for ChatApp is deployed at the following Ethereum address:
