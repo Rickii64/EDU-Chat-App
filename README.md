@@ -1,1 +1,1 @@
-# EDU-Chat-App
+This is a solidity program for chatapp
