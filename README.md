@@ -116,5 +116,6 @@ For any inquiries, suggestions, or contributions, please reach out to:
 - **Project Lead**: Rodrick Sohkhia Myrthong
 - **Email**: myrthongrodrick64@gmail.com
 - **GitHub**: [github.com/Rickii64/EDU-Chat-App](https://github.com/Rickii64/EDU-Chat-App)
+- **PPT**: https://slidesgpt.com/l/3imT
 
 Thank you for your interest in ChatApp!
